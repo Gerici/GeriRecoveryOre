@@ -1,22 +1,26 @@
-# Node
+# Node modules (non vogliamo caricare tutta la roba installata)
 node_modules/
-npm-debug.log*
 
-# Build
+# Output della build (vercel lo rigenera)
 dist/
-
-# Vite
 .vite/
 
-# Env
-.env
-.env.*
+# Log e debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File temporanei
+*.local
+*.sublime-workspace
+*.swp
 
 # Mac
 .DS_Store
 
-# VS Code
+# VS Code config (se vuoi tenerlo personale)
 .vscode/
 
-# Custom folders
-GeriRecoveryOreREPO/
+# Ambiente/env
+.env
+.env.*
