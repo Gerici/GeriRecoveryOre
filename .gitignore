@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Build
+dist/
+
+# Vite
+.vite/
+
+# Env
+.env
+.env.*
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Custom folders
+GeriRecoveryOreREPO/
